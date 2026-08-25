@@ -5,3 +5,10 @@
 //
 // Escreva sua solução abaixo:
 
+const viagem = {destino: "Londres", dias: 7, valor: 10000};
+
+const {destino, dias, valor} = viagem;
+
+console.log(destino);
+console.log(dias);
+console.log(valor);
