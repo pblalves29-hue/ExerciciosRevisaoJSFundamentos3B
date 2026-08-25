@@ -5,3 +5,8 @@
 //
 // Escreva sua solução abaixo:
 
+function consumoGasolina(distanciaKm, litros) {
+    return distanciaKm / litros;
+}
+let result = consumoGasolina(10, 5);
+console.log(result);

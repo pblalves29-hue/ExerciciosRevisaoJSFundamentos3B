@@ -4,3 +4,7 @@
 //
 // Escreva sua solução abaixo:
 
+const triplo = (num) => {
+    return num * 3
+}
+console.log(triplo(12));
