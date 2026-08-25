@@ -5,3 +5,18 @@
 //
 // Escreva sua solução abaixo:
 
+class Ingresso{
+    
+    constructor(evento, preco, quant){
+        this.evento = evento;
+        this.preco = preco;
+        this.quant = quant;
+    }
+}
+
+const ingresso = new Ingresso("EXPO", 100, 2);
+console.log(ingresso);
+ingresso.preco += 100 
+ingresso.quant += 2;
+
+console.log(ingresso);

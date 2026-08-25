@@ -4,3 +4,14 @@
 //
 // Escreva sua solução abaixo:
 
+class Curso{
+    constructor(nome, modalidade){
+        this.nome = nome;
+        this.modalidade = modalidade;
+    }
+    descrever(){
+        console.log(`Curso - ${this.nome} | modalidade - ${this.modalidade}`);
+    }
+}
+const curso = new Curso("Desenvolvimento de Sistemas", "Tecnologia");
+curso.descrever();

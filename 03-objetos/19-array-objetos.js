@@ -5,3 +5,10 @@
 //
 // Escreva sua solução abaixo:
 
+const jogos = [
+    { titulo: "Vava", plataforma: "PC", classificacao: 16},
+    { titulo: "Mine", plataforma: "Mobile", classificacao: 10},
+    { titulo: "Tf2", plataforma: "PC", classificacao: 18},
+]
+
+jogos.forEach(jogo => console.log(jogo.titulo, jogo.plataforma));

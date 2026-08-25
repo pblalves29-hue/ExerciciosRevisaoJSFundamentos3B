@@ -5,3 +5,12 @@
 //
 // Escreva sua solução abaixo:
 
+class Circulo{
+
+    calcularArea(raio){
+        this.raio = raio;
+        return Math.PI * raio * raio;
+    }
+}
+const circulo = new Circulo()
+console.log(circulo.calcularArea(8).toFixed(2));
