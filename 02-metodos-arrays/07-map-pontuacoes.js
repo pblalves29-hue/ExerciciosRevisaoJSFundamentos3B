@@ -5,3 +5,7 @@
 //
 // Escreva sua solução abaixo:
 
+const numeros = [20, 35, 40, 55];
+
+const add = numeros.map(numero => numero + 5);
+console.log(add);

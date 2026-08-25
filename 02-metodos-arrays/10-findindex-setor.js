@@ -5,3 +5,7 @@
 //
 // Escreva sua solução abaixo:
 
+const areas = ["Vendas", "Financeiro", "TI", "RH"];
+
+const posicao = areas.findIndex(area => area === "TI");
+console.log(posicao);

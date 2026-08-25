@@ -5,3 +5,7 @@
 //
 // Escreva sua solução abaixo:
 
+const quantidadesEstoque = [4, 2, 7, 1, 6];
+
+const verify = quantidadesEstoque.every(quant => quant > 0);
+console.log(verify);

@@ -5,3 +5,12 @@
 //
 // Escreva sua solução abaixo:
 
+const alunos = [
+    {nome: "João", matricula: 262},
+    {nome: "Robson", matricula: 222},
+    {nome: "Robert", matricula: 212},
+    {nome: "Leonardo", matricula: 103},
+];
+
+const search = alunos.find(aluno => aluno.matricula == 103);
+console.log(search);
